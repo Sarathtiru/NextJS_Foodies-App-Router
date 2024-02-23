@@ -25,7 +25,7 @@ export const generateMetadata = async ({ params }) => {
    }
 
 const MealDetailPage = ({ params }) => {
-  console.log(params)
+  
   const meal = getMeal(params.mealSlug);
   if (!meal) {
     notFound();
