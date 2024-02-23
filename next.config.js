@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    reactStrictMode: true,
+    //images: { unoptimized: true },
+    //reactStrictMode: true,
 
  // Add basePath
-  basePath: '/NextJS_Foodies-App-Router',
+  //basePath: '/NextJS_Foodies-App-Router',
 }
 
 module.exports = nextConfig
